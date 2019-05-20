@@ -1,7 +1,9 @@
 import socket
 
-target_host = "www.google.com"
-target_port = 80
+#target_host = "www.google.com"
+target_host = "127.0.0.1"
+#target_port = 80
+target_port = 9999
 
 #Create a socket object
 #AF_INET says we are going to use a standard IPV4 address or hostname
