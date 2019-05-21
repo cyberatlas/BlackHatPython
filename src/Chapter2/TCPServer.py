@@ -35,6 +35,7 @@ while True:
     print "[*] Accepted connection from: %s:%d" %(addr[0], addr[1])
 
     #Spin up up our client thread to handle incoming data
+    #Then our server is ready to handle another connection
     client_handler = threading.Thread(target=handle_client, args=(client,))
     #Start the client handler
     client_handler.start()
